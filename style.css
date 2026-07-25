@@ -2,25 +2,29 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:Arial,Helvetica,sans-serif;
 }
 
 body{
-background:#0d0d0d;
-color:white;
+background:#0f1117;
+color:#ffffff;
+font-family:Arial, Helvetica, sans-serif;
+line-height:1.6;
 }
 
 header{
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:25px 80px;
-background:#111;
+padding:25px 10%;
+background:#151923;
+border-bottom:1px solid #222;
+position:sticky;
+top:0;
 }
 
 header h1{
-font-size:38px;
-letter-spacing:4px;
+font-size:32px;
+letter-spacing:2px;
 }
 
 nav a{
@@ -31,69 +35,62 @@ transition:.3s;
 }
 
 nav a:hover{
-color:#c9a35b;
+color:#d4af37;
 }
 
 .hero{
-height:85vh;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
 text-align:center;
-padding:20px;
-background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.8));
+padding:120px 20px;
 }
 
 .hero h2{
 font-size:58px;
-max-width:900px;
 margin-bottom:20px;
 }
 
 .hero p{
-font-size:22px;
 max-width:700px;
-color:#cccccc;
-margin-bottom:35px;
+margin:0 auto 35px;
+color:#b8b8b8;
+font-size:20px;
 }
 
 button{
-padding:15px 40px;
-background:#c9a35b;
-color:white;
+background:#d4af37;
+color:#111;
 border:none;
-border-radius:6px;
+padding:15px 35px;
 font-size:18px;
+border-radius:8px;
 cursor:pointer;
 transition:.3s;
 }
 
 button:hover{
 transform:scale(1.05);
+background:#e7c85a;
 }
 
 .about{
-padding:100px 80px;
-text-align:center;
+max-width:900px;
+margin:80px auto;
+padding:0 20px;
 }
 
 .about h2{
-font-size:40px;
-margin-bottom:25px;
+font-size:38px;
+margin-bottom:20px;
 }
 
 .about p{
-max-width:900px;
-margin:auto;
-font-size:20px;
-line-height:1.8;
-color:#cfcfcf;
+color:#b8b8b8;
+font-size:18px;
 }
 
 footer{
-background:#111;
-padding:30px;
 text-align:center;
-color:#888;
+padding:35px;
+border-top:1px solid #222;
+color:#777;
+margin-top:80px;
 }
