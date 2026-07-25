@@ -5,196 +5,34 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MONZART</title>
 
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
-scroll-behavior:smooth;
-}
-
-body{
-background:#0d0d0d;
-color:white;
-}
-
-header{
-position:fixed;
-width:100%;
-padding:20px 60px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-background:rgba(0,0,0,.75);
-backdrop-filter:blur(8px);
-z-index:1000;
-}
-
-.logo{
-font-size:30px;
-font-weight:bold;
-letter-spacing:3px;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-margin-left:30px;
-transition:.3s;
-}
-
-nav a:hover{
-color:#d4af37;
-}
-
-.hero{
-height:100vh;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-text-align:center;
-padding:20px;
-background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.8));
-}
-
-.hero h1{
-font-size:80px;
-letter-spacing:8px;
-}
-
-.hero p{
-margin-top:20px;
-font-size:22px;
-color:#cccccc;
-max-width:700px;
-}
-
-.button{
-margin-top:40px;
-padding:16px 40px;
-background:#d4af37;
-color:black;
-font-weight:bold;
-border-radius:8px;
-text-decoration:none;
-transition:.3s;
-}
-
-.button:hover{
-transform:scale(1.05);
-}
-
-section{
-padding:100px 10%;
-}
-
-h2{
-font-size:40px;
-margin-bottom:30px;
-}
-
-.games{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:25px;
-}
-
-.card{
-background:#181818;
-padding:30px;
-border-radius:12px;
-transition:.3s;
-}
-
-.card:hover{
-transform:translateY(-8px);
-}
-
-footer{
-padding:30px;
-text-align:center;
-background:#111;
-color:#888;
-}
-</style>
-
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 <header>
-
-<div class="logo">
-MONZART
-</div>
+<h1>MONZART</h1>
 
 <nav>
-<a href="#games">Games</a>
-<a href="#about">About</a>
-<a href="#contact">Contact</a>
+<a href="#">Home</a>
+<a href="#">Games</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
 </nav>
-
 </header>
 
 <section class="hero">
 
-<h1>MONZART</h1>
+<h2>Creating unforgettable worlds.</h2>
 
 <p>
-Creating unforgettable worlds and unforgettable stories.
+Welcome to Monzart Studios.
 </p>
 
-<a href="#games" class="button">
-Explore
-</a>
+<button>Explore</button>
 
 </section>
 
-<section id="games">
-
-<h2>Games</h2>
-
-<div class="games">
-
-<div class="card">
-<h3>Project One</h3>
-<p>Coming Soon</p>
-</div>
-
-<div class="card">
-<h3>Next Game</h3>
-<p>In Development</p>
-</div>
-
-</div>
-
-</section>
-
-<section id="about">
-
-<h2>About</h2>
-
-<p>
-Monzart is an independent game studio focused on creating unique and immersive gaming experiences.
-</p>
-
-</section>
-
-<section id="contact">
-
-<h2>Contact</h2>
-
-<p>Email: contact@monzart.com</p>
-
-</section>
-
-<footer>
-
-© 2026 MONZART. All Rights Reserved.
-
-</footer>
+<script src="script.js"></script>
 
 </body>
 </html>
